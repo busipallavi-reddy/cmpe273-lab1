@@ -1,0 +1,6 @@
+time python3 async_ext_merge_sort.py 
+
+real	0m0.091s
+user	0m0.079s
+sys	0m0.012s
+

@@ -1,0 +1,6 @@
+time python3 ext_merge_sort.py 
+
+real	0m0.073s
+user	0m0.053s
+sys	0m0.020s
+
