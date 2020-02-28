@@ -12,7 +12,9 @@ Implemented external sorting in the following manner:
 time python3 ext_merge_sort.py 
 
 real	0m0.073s
+
 user	0m0.053s
+
 sys	0m0.020s
 
 **Asyncio External Sort**
@@ -24,7 +26,9 @@ As for asyncio external sort, implemented the above algorithm by converting the 
 time python3 async_ext_merge_sort.py 
 
 real	0m0.091s
+
 user	0m0.079s
+
 sys	0m0.012s
 
 As the input was small and CPU has more power, the time taken by asyncio was a little larger than normal external sort. When I tried with 10 files with 10,000 numbers each or more number of files, asyncio performed much better than the sync program.
